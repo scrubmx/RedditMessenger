@@ -4,19 +4,19 @@
  */
 'use strict';
 
+var Auth = require('./lib/Components/Auth');
 var React = require('react-native');
-var Login = require('./lib/Components/Login');
 
 var { AppRegistry, NavigatorIOS } = React;
 
-var RedditMessenger = React.createClass({
-  render: function() {
+class RedditMessenger extends React.Component {
+  render() {
     return (
       <NavigatorIOS
         style={{ flex: 1 }}
-        initialRoute={{ title: 'Login', component: Login }} />
+        initialRoute={{ title: 'Login', component: Auth }} />
     );
   }
-});
+}
 
 AppRegistry.registerComponent('RedditMessenger', () => RedditMessenger);
