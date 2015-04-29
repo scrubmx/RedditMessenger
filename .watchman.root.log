@@ -1,0 +1,7 @@
+1430327026: tid=2046788352 Using watcher mechanism fsevents
+1430327026: tid=2046788352 file limit is 256 kern.maxfilesperproc=10240
+1430327026: tid=2046788352 raised file limit to 10240
+1430327026: tid=2046788352 Using socket from launchd as listening socket
+1430327026: tid=2046788352 failed to parse json from /Users/scrub/Recurse/js/RedditMessenger/.watchman.root.state: unable to open /Users/scrub/Recurse/js/RedditMessenger/.watchman.root.state: No such file or directory
+1430327026: tid=213594112 path /Users/scrub/Recurse/js/RedditMessenger is on filesystem type hfs
+1430327026: tid=216227840 path /Users/scrub/Recurse/js/RedditMessenger is on filesystem type hfs
