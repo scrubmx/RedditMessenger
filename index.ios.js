@@ -4,8 +4,8 @@
  */
 'use strict';
 
-var Auth  = require('./lib/Components/Auth'),
-    React = require('react-native');
+var Auth  = require('./lib/Components/Auth');
+var React = require('react-native');
 
 var { AppRegistry, NavigatorIOS } = React;
 
