@@ -10,3 +10,8 @@
 1430413427: tid=2046788352 raised file limit to 10240
 1430413427: tid=2046788352 Using socket from launchd as listening socket
 1430413427: tid=2046788352 path /Users/scrub/Recurse/js/RedditMessenger is on filesystem type hfs
+1430693513: tid=2046788352 Using watcher mechanism fsevents
+1430693513: tid=2046788352 file limit is 256 kern.maxfilesperproc=10240
+1430693513: tid=2046788352 raised file limit to 10240
+1430693513: tid=2046788352 Using socket from launchd as listening socket
+1430693513: tid=2046788352 path /Users/scrub/Recurse/js/RedditMessenger is on filesystem type hfs

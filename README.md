@@ -1,4 +1,7 @@
 # Reddit Messenger
-**Send private messages to your reddit friends!**
+Simple react-native app to send private messages to your reddit friends!
 
-## Built with react native
+## Development Set Up
+
+1. Clone this repository
+2. 
