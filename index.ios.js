@@ -1,6 +1,5 @@
 /**
- * Simple reddit messaging system app.
- * https://github.com/facebook/react-native
+ * A simple reddit messaging app. Built with react native.
  */
 'use strict';
 
@@ -10,6 +9,7 @@ var React = require('react-native');
 var { AppRegistry, NavigatorIOS } = React;
 
 class RedditMessenger extends React.Component {
+
   render() {
     return (
       <NavigatorIOS
@@ -17,6 +17,7 @@ class RedditMessenger extends React.Component {
         initialRoute={{ title: 'Login', component: Auth }} />
     );
   }
+
 }
 
 AppRegistry.registerComponent('RedditMessenger', () => RedditMessenger);
